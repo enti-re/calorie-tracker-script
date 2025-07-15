@@ -62,8 +62,6 @@ Click the ... (three dots) icon in the top-right corner.
 
 Click "Copy link to view".
 
-The link will look like this: https://www.notion.so/your-workspace/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX?v=...
-
 The long string of characters (XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX) between your workspace name and the ? is your NOTION_DATABASE_ID.
 
 Connect Your Integration to the Database:
@@ -114,3 +112,15 @@ food_logger.py: The main Python script containing all the logic.
 requirements.txt: A list of all the Python packages needed for the project.
 
 .env: Your private file for storing API keys and secrets (you create this from .env.example).
+
+💡 Future Ideas
+Add support for image input (take a picture of your food).
+
+Build a simple web interface using Flask or Streamlit.
+
+Deploy it as a serverless function on AWS Lambda or Google Cloud Functions.
+
+Create a Telegram or Discord bot interface.
+
+📜 License
+This project is licensed under the MIT License. See the LICENSE file for details.
